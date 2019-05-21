@@ -1,6 +1,7 @@
 # CGAL-setup
 CGAL을 세팅해 봅시다    
-환경 : VS 2015, CMake 3.9.3, Boost 1.65, CGAL 4.13.1
+환경 : VS 2015, CMake 3.9.3, Boost 1.65, CGAL 4.13.1    
+Reference : http://bitly.kr/02p8xj
 
 # CMake 다운로드
 CMake를 설치. 필자는 3.9 버전 설치하였음
@@ -37,7 +38,7 @@ Build
 > C:/dev/CGAL-4.13.1/build (폴더를 생성하였음)
 
 ```
-EIGEN_INCLUDE_DIR : E:/eigen-eigen-b9cd8366d4e8/Eigen_3.2.10/Eigen
+EIGEN_INCLUDE_DIR : E:/eigen-eigen-b9cd8366d4e8/Eigen_3.2.10
 WITH_EIGEN : check
 QT 관련 : 위 사진과 같음
 Boost_LIBRARY_DEBUG & RELEASE : E:/boost_1_65_0/stage/lib
@@ -48,4 +49,13 @@ Boost_INCLUDE_DIR : E:/boost_1_65_0/
 프로젝트가 열리면 ALL_BUILD 프로젝트를 시작 프로젝트로 지정하여, 빌드하면 된다.
 
 # Library 연동
-니ㅏ언미아넘이ㅏㅓ
+아래와 같이 연동하면 된다.    
+    
+## Include
+![img2](image2.PNG)
+
+## Library 경로 설정
+![img3](image3.PNG)
+
+## Library Files
+![img4](image4.PNG)    
