@@ -1,7 +1,9 @@
 # CGAL-setup
-CGAL을 세팅해 봅시다    
+CGAL setup 과정
 환경 : VS 2015, CMake 3.9.3, Boost 1.65, CGAL 4.13.1    
-Reference : http://bitly.kr/02p8xj
+QT는 CMake 등에 포함이 되어는 있지만 사용하지는 않았음     
+Reference : http://bitly.kr/02p8xj      
+
 
 # CMake 다운로드
 CMake를 설치. 필자는 3.9 버전 설치하였음
@@ -188,7 +190,7 @@ int main(void)
 결과로는 Point Cloud와 생성된 Surface간의 거리가 출력 된다.    
 ![image0](image0.PNG)    
 
-# PointCloud & Recon. Surface Rendereing
+# PointCloud & Recon. Surface Rendering
 
 kitten.xyz와 Poisson Reconstruction된 Surface의 결과를 보이면 아래와 같다.    
     
